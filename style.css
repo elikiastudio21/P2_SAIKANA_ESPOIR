@@ -1,7 +1,31 @@
-body {
-    @font-face {
-        font-family: raleway;
-        src: url(raleway);
-    }
-    margin: 3px 3px 3px 3PX;
+@font-face {
+    font-family: 'Raleway';
+    src: url('font/Raleway-Regular.ttf') format('ttf');
+
+}
+
+body{
+    font-family: raleway;
+    margin: 30px 45px 0px 45px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav{
+    padding: 0px;
+    font-size: 13px;
+}
+
+.topm{
+    padding: 10px;
+    color:#0065FC;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+.topm:hover{
+    text-decoration: unset;
+    color: gray;
 }
