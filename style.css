@@ -32,6 +32,24 @@ header nav a.topm:hover{
     color: #F2F2F2;
 }
 
+.location{
+    display: flex;
+}
+
+main section form p{
+    margin: auto;
+    
+}
+
+main section form input{
+    height: 36px;
+    width: 160px;
+    font-family: 'Raleway';
+    font-weight: bold;
+    border: 1px solid #F2F2F2;
+    
+}
+
 .icone{
     background: #F2F2F2;
     width: 44px;
