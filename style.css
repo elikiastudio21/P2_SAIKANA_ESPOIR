@@ -20,13 +20,15 @@ nav{
     font-size: 13px;
 }
 
-.topm{
+
+header nav a.topm{
     padding: 10px;
     color:#0065FC;
     letter-spacing: 1px;
     text-decoration: none;
 }
-.topm:hover{
+header nav a.topm:hover{
     text-decoration: unset;
     color: #F2F2F2;
 }
+
