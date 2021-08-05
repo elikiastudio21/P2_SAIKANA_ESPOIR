@@ -92,6 +92,7 @@ button{
 .deux{
     display: flex;
     align-items: center;
+    margin-right: 30px;
 }
 
 .fas.fa-money-bill-wave{
@@ -124,7 +125,7 @@ button{
     margin-right: 30px;
 }
 
-.fas.fa-money-bill-wave{
+.fas.fa-child{
     color: #0065FC ;
     background: #DEEBFF;
     width: 40px;
@@ -154,7 +155,7 @@ button{
     margin-right: 30px;
 }
 
-.fas.fa-money-bill-wave{
+.fas.fa-heart{
     color: #0065FC ;
     background: #DEEBFF;
     width: 40px;
@@ -184,7 +185,7 @@ button{
     margin-right: 30px;
 }
 
-.fas.fa-money-bill-wave{
+.fas.fa-dog{
     color: #0065FC ;
     background: #DEEBFF;
     width: 40px;
@@ -206,4 +207,22 @@ button{
     width: 165px;
     height: 36px;
     z-index: 0;
+}
+
+.info{
+    display: flex;
+    align-items: center;
+}
+
+.fas.fa-info{
+    color: #0065FC;
+    /* background: #DEEBFF; */
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: #F2F2F2 solid 1px;
 }
