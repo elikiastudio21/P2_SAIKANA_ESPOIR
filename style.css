@@ -73,3 +73,137 @@ button{
     border-radius: 0px 12px 12px 0px;
     border: none;
 }
+
+.filtres{
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.un{
+    margin-right: 50px;
+}
+
+.ssFiltres{
+    font-size: 16px;
+}
+
+
+.deux{
+    display: flex;
+    align-items: center;
+}
+
+.fas.fa-money-bill-wave{
+    color: #0065FC ;
+    background: #DEEBFF;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+.sseconomique{
+    border: #F2F2F2 solid 1px;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0px 20px 20px 0px;
+    margin-left: -15px;
+    width: 129px;
+    height: 36px;
+    z-index: 0;
+}
+
+.trois{
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+}
+
+.fas.fa-money-bill-wave{
+    color: #0065FC ;
+    background: #DEEBFF;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+.ssfamilial{
+    border: #F2F2F2 solid 1px;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0px 20px 20px 0px;
+    margin-left: -15px;
+    width: 129px;
+    height: 36px;
+    z-index: 0;
+}
+
+.quatres{
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+}
+
+.fas.fa-money-bill-wave{
+    color: #0065FC ;
+    background: #DEEBFF;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+.ssromantique{
+    border: #F2F2F2 solid 1px;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0px 20px 20px 0px;
+    margin-left: -15px;
+    width: 129px;
+    height: 36px;
+    z-index: 0;
+}
+
+.cinq{
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+}
+
+.fas.fa-money-bill-wave{
+    color: #0065FC ;
+    background: #DEEBFF;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+.ssanimaux{
+    border: #F2F2F2 solid 1px;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0px 20px 20px 0px;
+    margin-left: -15px;
+    width: 165px;
+    height: 36px;
+    z-index: 0;
+}
