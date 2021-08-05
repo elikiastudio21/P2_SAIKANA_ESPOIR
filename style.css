@@ -80,7 +80,7 @@ button{
     margin-top: 25px;
 }
 
-.un{
+main section .un{
     margin-right: 50px;
 }
 
@@ -225,4 +225,23 @@ button{
     justify-content: center;
     align-items: center;
     border: #F2F2F2 solid 1px;
+}
+
+.hébergements{
+    background: #F2F2F2;
+    width: 45em;
+    height: 35em;
+    border-radius: 25px 25px 25px 25px;
+}
+.marseille{
+    padding: 55px 16px 0px 16px;
+    font-size: 20px;
+}
+
+.photoun{
+    background: white;
+    border-radius: 25px 25px 25px 25px;
+    width: 15em;
+    height: 13em;
+
 }
