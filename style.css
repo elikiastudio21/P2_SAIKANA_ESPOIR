@@ -89,13 +89,13 @@ main section .un{
 }
 
 
-.deux{
+.filtre{
     display: flex;
     align-items: center;
     margin-right: 30px;
 }
 
-.fas.fa-money-bill-wave{
+main section .filtre .fas{
     color: #0065FC ;
     background: #DEEBFF;
     width: 40px;
@@ -106,7 +106,8 @@ main section .un{
     align-items: center;
     z-index: 1;
 }
-.sseconomique{
+
+.t{
     border: #F2F2F2 solid 1px;
     font-size: 14px;
     display: flex;
@@ -119,95 +120,6 @@ main section .un{
     z-index: 0;
 }
 
-.trois{
-    display: flex;
-    align-items: center;
-    margin-right: 30px;
-}
-
-.fas.fa-child{
-    color: #0065FC ;
-    background: #DEEBFF;
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 1;
-}
-.ssfamilial{
-    border: #F2F2F2 solid 1px;
-    font-size: 14px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 0px 20px 20px 0px;
-    margin-left: -15px;
-    width: 129px;
-    height: 36px;
-    z-index: 0;
-}
-
-.quatres{
-    display: flex;
-    align-items: center;
-    margin-right: 30px;
-}
-
-.fas.fa-heart{
-    color: #0065FC ;
-    background: #DEEBFF;
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 1;
-}
-.ssromantique{
-    border: #F2F2F2 solid 1px;
-    font-size: 14px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 0px 20px 20px 0px;
-    margin-left: -15px;
-    width: 129px;
-    height: 36px;
-    z-index: 0;
-}
-
-.cinq{
-    display: flex;
-    align-items: center;
-    margin-right: 30px;
-}
-
-.fas.fa-dog{
-    color: #0065FC ;
-    background: #DEEBFF;
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 1;
-}
-.ssanimaux{
-    border: #F2F2F2 solid 1px;
-    font-size: 14px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 0px 20px 20px 0px;
-    margin-left: -15px;
-    width: 165px;
-    height: 36px;
-    z-index: 0;
-}
 
 .info{
     display: flex;
