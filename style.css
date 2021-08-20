@@ -108,7 +108,7 @@ main section .filtre .fas{
 }
 
 .t{
-    border: #F2F2F2 solid 1px;
+    border: #F2F2F2 solid 2px;
     font-size: 14px;
     display: flex;
     justify-content: center;
@@ -118,6 +118,33 @@ main section .filtre .fas{
     width: 129px;
     height: 36px;
     z-index: 0;
+    font-weight: bold;
+}
+.tl{
+    border: #F2F2F2 solid 2px;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0px 20px 20px 0px;
+    margin-left: -15px;
+    width: 160px;
+    height: 36px;
+    z-index: 0;
+    font-weight: bold;
+}
+.tc{
+    border: #F2F2F2 solid 2px;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0px 20px 20px 0px;
+    margin-left: -15px;
+    width: 95px;
+    height: 36px;
+    z-index: 0;
+    font-weight: bold;
 }
 
 
@@ -141,19 +168,45 @@ main section .filtre .fas{
 
 .hébergements{
     background: #F2F2F2;
-    width: 45em;
+    width: 63em;
     height: 35em;
     border-radius: 25px 25px 25px 25px;
 }
 .marseille{
-    padding: 55px 16px 0px 16px;
+    padding: 55px 16px 0px 44px;
     font-size: 20px;
 }
 
-.photoun{
+main section .photoun{
     background: white;
     border-radius: 25px 25px 25px 25px;
-    width: 15em;
-    height: 13em;
+    width: 17em;
+    height: 15em;
+    margin-left: 35px;
+    margin-top: 35px;
+    padding: 7px 6px 17px 7px;
+}
 
+main section .photoun img{
+    border-radius: 25px 25px 0px 0px;
+    width: 17em;
+    height: 10em;
+}
+
+main section .com .titre{
+
+    font-weight: bold;
+    margin-top: 6px;
+}
+
+main section .com .minitexte{
+    font-size: 12px;
+    margin-top: -9px;
+}
+
+main section .note .fas{
+    color: #0065FC;
+}
+main section .lignement{
+    display: flex;
 }
