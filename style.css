@@ -21,18 +21,18 @@ nav{
 }
 
 
-header nav a.topm{
+header nav a.menu{
     padding: 10px;
     color:#0065FC;
     letter-spacing: 1px;
     text-decoration: none;
 }
-header nav a.topm:hover{
+header nav a.menu:hover{
     text-decoration: unset;
     color: #F2F2F2;
 }
 
-.location{
+main section .rental{
     display: flex;
 }
 
@@ -50,7 +50,7 @@ main section form input{
     
 }
 
-.icone{
+main section .icon{
     background: #F2F2F2;
     width: 44px;
     height: 40px;
@@ -74,28 +74,26 @@ button{
     border: none;
 }
 
-.filtres{
+main section .filters{
     display: flex;
     align-items: center;
     margin-top: 25px;
 }
 
-main section .un{
+
+main section .filters h2{
+    font-size: 16px;
     margin-right: 50px;
 }
 
-.ssFiltres{
-    font-size: 16px;
-}
 
-
-.filtre{
+.filter{
     display: flex;
     align-items: center;
     margin-right: 30px;
 }
 
-main section .filtre .fas{
+main section .filter .fas{
     color: #0065FC ;
     background: #DEEBFF;
     width: 40px;
@@ -107,7 +105,7 @@ main section .filtre .fas{
     z-index: 1;
 }
 
-.t{
+main section .filters .button{
     border: #F2F2F2 solid 2px;
     font-size: 14px;
     display: flex;
@@ -120,7 +118,7 @@ main section .filtre .fas{
     z-index: 0;
     font-weight: bold;
 }
-.tl{
+main section .filters .buttonn{
     border: #F2F2F2 solid 2px;
     font-size: 14px;
     display: flex;
@@ -133,7 +131,7 @@ main section .filtre .fas{
     z-index: 0;
     font-weight: bold;
 }
-.tc{
+main section .filters .buttonnn{
     border: #F2F2F2 solid 2px;
     font-size: 14px;
     display: flex;
@@ -148,12 +146,12 @@ main section .filtre .fas{
 }
 
 
-.info{
+main section .info{
     display: flex;
     align-items: center;
 }
 
-.fas.fa-info{
+main section .info .fas{
     color: #0065FC;
     /* background: #DEEBFF; */
     width: 30px;
@@ -166,47 +164,56 @@ main section .filtre .fas{
     border: #F2F2F2 solid 1px;
 }
 
-.hébergements{
+main section .accommodation{
     background: #F2F2F2;
     width: 63em;
     height: 35em;
     border-radius: 25px 25px 25px 25px;
 }
-.marseille{
+
+main section .accommodation > h1 {
     padding: 55px 16px 0px 44px;
     font-size: 20px;
 }
 
-main section .photoun{
+
+
+main section .pixel{
     background: white;
     border-radius: 25px 25px 25px 25px;
-    width: 17em;
-    height: 15em;
+    width: 273px;
+    height: 235px;
     margin-left: 35px;
     margin-top: 35px;
     padding: 7px 6px 17px 7px;
 }
 
-main section .photoun img{
+main section .pixel img{
     border-radius: 25px 25px 0px 0px;
-    width: 17em;
-    height: 10em;
+    width: 273px;
+    height: 160px;
 }
 
-main section .com .titre{
+main section .remark{
+    padding-left: 12px;
+}
+
+main section .remark .title{
 
     font-weight: bold;
     margin-top: 6px;
+    margin-bottom: 5px;
 }
 
-main section .com .minitexte{
-    font-size: 12px;
-    margin-top: -9px;
+main section .remark .text{
+    font-size: 15px;
+    margin-top: 0;
+    margin-bottom: 6px;
 }
 
-main section .note .fas{
+main section .star .fas{
     color: #0065FC;
 }
-main section .lignement{
+main section .block{
     display: flex;
 }
