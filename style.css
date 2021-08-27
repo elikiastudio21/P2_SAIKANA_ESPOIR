@@ -166,8 +166,8 @@ main section .info .fas{
 
 main section .accommodation{
     background: #F2F2F2;
-    width: 63em;
-    height: 35em;
+    width: 1000px;
+    height: 720px;
     border-radius: 25px 25px 25px 25px;
 }
 
