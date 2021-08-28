@@ -167,8 +167,9 @@ main section .info .fas{
 main section .accommodation{
     background: #F2F2F2;
     width: 1000px;
-    height: 720px;
+    height: 850px;
     border-radius: 25px 25px 25px 25px;
+    
 }
 
 main section .accommodation > h1 {
@@ -186,6 +187,7 @@ main section .pixel{
     margin-left: 35px;
     margin-top: 35px;
     padding: 7px 6px 17px 7px;
+    box-shadow: 6px 6px 6px gray;
 }
 
 main section .pixel img{
@@ -216,4 +218,10 @@ main section .star .fas{
 }
 main section .block{
     display: flex;
+}
+main section aside .accommodation{
+    background: #F2F2F2;
+    width: 550px;
+    height: 850px;
+    border-radius: 25px 25px 25px 25px;
 }
