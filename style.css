@@ -6,7 +6,7 @@
 
 body{
     font-family: raleway;
-    margin: 30px 45px 0px 45px;
+    margin: 19px 10px 0px 19px;
     background-color: rgb(255, 255, 255);
 }
 
@@ -87,7 +87,7 @@ main section .filters h2{
 }
 
 
-.filter{
+main section .filter{
     display: flex;
     align-items: center;
     margin-right: 30px;
@@ -149,6 +149,7 @@ main section .filters .buttonnn{
 main section .info{
     display: flex;
     align-items: center;
+    margin-bottom: 25px;
 }
 
 main section .info .fas{
@@ -166,29 +167,39 @@ main section .info .fas{
 
 main section .container-accomodation > .accommodation{
     background: #F2F2F2;
-    width: 58%;
-    height: 850px;
+    width: 73%;
+    height: 749px;
+    margin-right: 2%;
     border-radius: 25px 25px 25px 25px;
     
 }
 
-main section .container-accomodation .accommodation > h1 {
-    padding: 55px 16px 0px 44px;
+main section .container-accomodation .subtitle{
+    padding: 34px 13px 0px 28px;
     font-size: 20px;
+    font-weight: 800;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
+main section .container-accomodation .accommodation .subtitl{
+    padding: 45px 16px 0px 44px;
+    font-size: 19px;
+    font-weight: 800;
+}
 
 
 main section .pixel{
     background: white;
     border-radius: 25px 25px 25px 25px;
-    width: 28%;
-    height: 235px;
-    margin-left: 35px;
-    margin-top: 35px;
+    width: 24%;
+    height: 217px;
+    margin-left: 20px;
+    margin-top: 42px;
     padding: 7px 6px 17px 7px;
     box-shadow: 6px 6px 6px gray;
 }
+
 
 main section .pixel img{
     border-radius: 25px 25px 0px 0px;
@@ -203,38 +214,62 @@ main section .remark{
 main section .remark .title{
 
     font-weight: bold;
-    margin-top: 6px;
+    font-size: 14px;
+    margin-top: 2px;
     margin-bottom: 5px;
 }
 
 main section .remark .text{
-    font-size: 15px;
+    font-size: 12px;
     margin-top: 0;
     margin-bottom: 6px;
 }
 
 main section .star .fas{
     color: #0065FC;
+    
 }
+
+
+.etoile-1 > i.fas:nth-last-of-type(-n+1){
+    color: #F2F2F2;
+}
+
+.etoile-2 > i.fas:nth-last-of-type(-n+2){
+    color: #F2F2F2;
+}
+
+.etoile-3 > i.fas:nth-last-of-type(-n+3){
+    color:#F2F2F2;
+}
+
+
+
+
 main section .block{
     display: flex;
     flex-wrap: wrap;
+    width: 119%;
 }
 
 main section aside{
-    width: 100px;
-    height: 400px;
+    width: 25%;
+    height: 749px;
     background: #F2F2F2;
-
-}
-
-main section aside .accommodation{
-    background: #F2F2F2;
-    width: 550px;
-    height: 850px;
     border-radius: 25px 25px 25px 25px;
+    
+
 }
+
 main section .container-accomodation{
     display: flex;
     flex-wrap: wrap;
+}
+main section aside .sub{
+    display: flex;
+    align-items: flex-end;
+}
+main section aside .sub .fas{
+    font-size: x-large;
+    margin-left: 17px;
 }
