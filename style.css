@@ -34,8 +34,8 @@ header nav a.menu{
 }
 header nav a.menu:hover{
 
-    text-decoration: overline;
-    color: #0065FC;
+    border-top: 2px solid #0065FC;
+    
     
 }
 
@@ -83,6 +83,7 @@ button{
 
 main section .filters{
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     margin-top: 25px;
 }
@@ -112,41 +113,17 @@ main section .filter .fas{
     z-index: 1;
 }
 
-main section .filters .button{
+main section .filters .filter .button{
     border: #F2F2F2 solid 2px;
-    font-size: 14px;
+    padding-left: 1rem;
+    padding-right: 0.5rem;
+    font-size: 0.7rem;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 0px 20px 20px 0px;
     margin-left: -15px;
-    width: 129px;
-    height: 36px;
-    z-index: 0;
-    font-weight: bold;
-}
-main section .filters .buttonn{
-    border: #F2F2F2 solid 2px;
-    font-size: 14px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 0px 20px 20px 0px;
-    margin-left: -15px;
-    width: 160px;
-    height: 36px;
-    z-index: 0;
-    font-weight: bold;
-}
-main section .filters .buttonnn{
-    border: #F2F2F2 solid 2px;
-    font-size: 14px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 0px 20px 20px 0px;
-    margin-left: -15px;
-    width: 95px;
+    /* width: 50%; */
     height: 36px;
     z-index: 0;
     font-weight: bold;
@@ -175,7 +152,6 @@ main section .info .fas{
 main section .container-accomodation > .accommodation{
     background: #F2F2F2;
     width: 73%;
-    height: 749px;
     margin-right: 2%;
     border-radius: 25px 25px 25px 25px;
     
@@ -261,7 +237,6 @@ main section .block{
 
 main section aside{
     width: 25%;
-    height: 749px;
     background: #F2F2F2;
     border-radius: 25px 25px 25px 25px;
     
@@ -413,3 +388,9 @@ footer .shortcut .text{
     
 }
 
+@media (max-width: 768px){
+    main section .pixel{
+        width: 36%; 
+        
+    }
+}
