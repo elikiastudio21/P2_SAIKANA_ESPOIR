@@ -27,14 +27,16 @@ main section{
 
 
 header nav a.menu{
-    padding: 10px;
+   
     color:#0065FC;
     letter-spacing: 1px;
     text-decoration: none;
 }
 header nav a.menu:hover{
-    text-decoration: unset;
-    color: #F2F2F2;
+
+    text-decoration: overline;
+    color: #0065FC;
+    
 }
 
 main section .rental{
@@ -305,14 +307,14 @@ main section aside .remark .title{
 
     font-weight: bold;
     font-size: 14px;
-    margin-top: 10px;
+    margin-top: 4px;
     margin-bottom: 5px;
 }
 
 main section aside .remark .text{
     font-size: 12px;
     margin-top: 0;
-    margin-bottom: 54px;
+    margin-bottom: 35px;
 }
 
 main section aside .subtitle{
