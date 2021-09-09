@@ -31,11 +31,12 @@ header nav a.menu{
     color:#0065FC;
     letter-spacing: 1px;
     text-decoration: none;
+    margin-right: 20px;
 }
-header nav a.menu:hover{
 
+header nav a.menu:hover{
+    padding-top: 15px;
     border-top: 2px solid #0065FC;
-    
     
 }
 
@@ -188,6 +189,7 @@ main section .pixel img{
     border-radius: 19px 19px 0px 0px;
     width: 100%;
     height: 160px;
+    object-fit: cover;
 }
 
 main section .remark{
@@ -265,8 +267,8 @@ main section aside .pixel{
     width: 88%;
     height: 118px;
     margin-left: 9px;
-    margin-top: 64px;
-    margin-bottom: 65px;
+    margin-top: 40px;
+    margin-bottom: 45px;
     padding: 7px 6px 17px 7px;
     box-shadow: 6px 6px 6px gray;
 }
