@@ -395,4 +395,82 @@ footer .shortcut .text{
         width: 36%; 
         
     }
+    main section .container-accomodation > .accommodation{
+        width: 100%;
+        margin-bottom: 3%;
+    }
+
+    main section aside{
+        width: 100%;
+        
+    }
+
+    main section aside .blocktwo{
+        display: flex;
+        width: 98%;
+    }
+
+    main section aside .pixel{
+        margin-left: 14px;
+    }
+
+    main section aside .remark {
+        padding-left: 4px;
+    }
+
+    main section .activity .one {
+        height: auto;
+    }
+
+    
+    main section .activity .two {
+        height: auto;
+    }
+
+    main section .activity, main section .activity .two{
+        flex-wrap: wrap;
+    }
+
+
+}
+
+
+@media (max-width: 375px) {
+  
+    main section .container-accomodation > .accommodation{
+        width: 100%;
+        margin-bottom: 5%;
+    }
+
+    main section .block {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    main section .pixel{
+        width: 36%; 
+        
+    }
+
+    main section aside {
+        width: 98%;
+    }
+
+    main section .activity {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    main section .activity .one {
+        width: 84%;
+        height: 330px;
+    }
+
+    main section .activity .two {
+        height: 335px;
+        width: 85%;
+    }
+
+
 }
