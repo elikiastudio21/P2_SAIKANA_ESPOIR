@@ -159,7 +159,7 @@ main section .container-accomodation > .accommodation{
 }
 
 main section .container-accomodation .subtitle{
-    padding: 34px 13px 0px 28px;
+    padding: 25px 13px 0px 28px;
     font-size: 20px;
     font-weight: 800;
     margin-top: 0;
@@ -267,7 +267,7 @@ main section aside .pixel{
     width: 88%;
     height: 118px;
     margin-left: 9px;
-    margin-top: 40px;
+    margin-top: 51px;
     margin-bottom: 45px;
     padding: 7px 6px 17px 7px;
     box-shadow: 6px 6px 6px gray;
@@ -352,7 +352,7 @@ main section .activity .two .small{
 main section .activity .two .small img{
     border-radius: 19px 19px 0px 0px;
     width: 100%;
-    height: 75%;
+    height: 69%;
     margin: 0;
     max-width: 100%;
     object-fit: cover;
@@ -419,12 +419,28 @@ footer .shortcut .text{
     }
 
     main section .activity .one {
-        height: auto;
+    height: 19%;
+    width: 46%;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 37px;
+    margin-bottom: 30px;
     }
 
     
     main section .activity .two {
         height: auto;
+        width: 34%;
+        margin-left: 60px;
+        margin-right: 20px;
+        margin-top: 40px;
+        margin-bottom: 0;
+    }
+
+    main section .activity .two .small{
+        height: 112px;
+        margin-bottom: 27px;
+    
     }
 
     main section .activity, main section .activity .two{
@@ -440,6 +456,24 @@ footer .shortcut .text{
     main section .container-accomodation > .accommodation{
         width: 100%;
         margin-bottom: 5%;
+        margin-bottom: 7%;
+    }
+
+    main section .accommodation:nth-child(1){
+        order: 2;
+        background: white;
+
+    }
+
+    main section aside:nth-child(2){
+        order: 1;
+        margin-bottom: 7%;
+
+    }
+
+    main section .conteneur:nth-child(3){
+        order: 3;
+
     }
 
     main section .block {
@@ -449,12 +483,23 @@ footer .shortcut .text{
     }
 
     main section .pixel{
-        width: 36%; 
+        width: 83%; 
         
     }
 
     main section aside {
         width: 98%;
+    }
+
+    main section aside .blocktwo {
+        display: flex;
+        width: 94%;
+        flex-wrap: wrap;
+    }
+
+    main section aside .pixel{
+        margin-top: 25px;
+        margin-bottom: 19px;
     }
 
     main section .activity {
@@ -463,13 +508,48 @@ footer .shortcut .text{
     }
 
     main section .activity .one {
-        width: 84%;
-        height: 330px;
+        width: 100%;
+        height: auto;
+        margin-left: auto;
+        margin-right: 4%;
+        margin-top: auto;
+        margin-bottom: auto;
     }
 
     main section .activity .two {
-        height: 335px;
-        width: 85%;
+        height: auto;
+        width: 100%;
+        margin-left: auto;
+        margin-bottom: auto;
+        margin-right: 4%;
+        margin-top: 4%;
+    }
+
+    main section .activity .two .small {
+        height: 245px;
+        margin-bottom: 12px;
+    }
+
+    main section .activity .two .small img {
+        border-radius: 19px 19px 0px 0px;
+        width: 100%;
+        height: 86%;
+       
+    }
+
+    main section .container-accomodation .subtitle{
+        padding: 25px 13px 13px 28px;
+    }
+
+    footer{
+        height: auto;
+        flex-wrap: wrap;
+        margin-top: 4%;
+
+    }
+
+    body{
+        margin: auto;
     }
 
 
