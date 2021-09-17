@@ -453,6 +453,15 @@ footer .shortcut .text{
 
 @media (max-width: 375px) {
   
+
+    nav{
+        display: flex;
+    }
+
+    header nav .left:nth-child(1){
+        align-self: flex-end;
+    }
+
     main section .container-accomodation > .accommodation{
         width: 100%;
         margin-bottom: 5%;
