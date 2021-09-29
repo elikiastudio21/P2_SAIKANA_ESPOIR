@@ -6,7 +6,6 @@
 
 header{
     display: flex;
-    justify-content: space-between;
     align-items: center;
     font-family: raleway;
     margin: 19px 10px 0px 19px;
@@ -469,19 +468,23 @@ footer .shortcut .text{
         display: flex;
     }
 
-    header nav > .menu{
-        padding-bottom: 3%;
+    header > a{
+        padding-bottom: 13%;
+    }
+
+    header nav > a.menu{
+        margin-right: 43px;
+        font-weight: 900;
     }
 
     header nav .interior{
     width: 100%;
     display: flex;
-    flex-direction: row-reverse;
-    padding-top: 12%;
+    padding-top: 8%;
     }
 
     header nav .interior .menu{
-        padding-left: 35%;
+        padding-left: 13%;
     }
 
     main section .container-accomodation > .accommodation{
