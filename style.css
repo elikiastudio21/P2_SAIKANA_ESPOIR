@@ -13,7 +13,7 @@ header{
     background-color: rgb(255, 255, 255);
 }
 
-header a{
+header > a{
     position: absolute;
 }
 
@@ -21,6 +21,11 @@ header nav{
 
     padding: 0px;
     font-size: 13px;
+    display: flex;
+    /* padding-left: 65%; */
+    flex-wrap: wrap;
+    width: 100%;
+    flex-direction: row-reverse;
 }
 
 main section{
@@ -348,8 +353,8 @@ main section .activity .two .small{
     border-radius: 19px 19px 0px 0px;
     border-radius: 19px 19px 19px 19px;
     box-shadow: 6px 6px 6px gray;
-    width: 100%;
-    height: 130px;
+    width: 95%;
+    height: 132px;
     margin-bottom: 47px;
 
 }
@@ -464,15 +469,20 @@ footer .shortcut .text{
         display: flex;
     }
 
-    header nav .menu:nth-child(1){
-        align-self: flex-end;
-    
+    header nav > .menu{
+        padding-bottom: 3%;
     }
-    header nav .menu:nth-child(2){
-        align-self: flex-end;
-    
+
+    header nav .interior{
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    padding-top: 12%;
     }
-    
+
+    header nav .interior .menu{
+        padding-left: 35%;
+    }
 
     main section .container-accomodation > .accommodation{
         width: 100%;
