@@ -123,6 +123,10 @@ main section .filter .fas{
     z-index: 1;
 }
 
+main section .filters .filter .button:hover{
+    background-color: #0065FC;
+}
+
 main section .filters .filter .button{
     border: #F2F2F2 solid 2px;
     padding-left: 1rem;
@@ -137,6 +141,8 @@ main section .filters .filter .button{
     height: 36px;
     z-index: 0;
     font-weight: bold;
+    color: black;
+    text-decoration: none;
 }
 
 
@@ -191,6 +197,8 @@ main section .pixel{
     margin-top: 42px;
     padding: 7px 6px 17px 7px;
     box-shadow: 6px 6px 6px gray;
+    color: black;
+    text-decoration: none;
 }
 
 
@@ -327,7 +335,8 @@ main section .activity .one{
     margin-top: 25px;
     margin-bottom: 82px;
     box-shadow: 6px 6px 6px gray;
-
+    text-decoration: none;
+    color: black;
 }
 
 main section .activity .one img{
@@ -343,6 +352,8 @@ main section .activity .two{
     height: 305px;
     margin-top: 25px;
     margin-bottom: 82px;
+    text-decoration: none;
+    color: black;
 
 }
 
@@ -466,9 +477,13 @@ footer .shortcut .text{
     nav{
         display: flex;
     }
+    header{
+        margin: 19px 0px 0px 0px;
+    }
 
     header > a{
-        padding-bottom: 13%;
+        margin-left: 4%;
+        padding-bottom: 16%;
     }
 
     header nav > a.menu{
@@ -482,14 +497,23 @@ footer .shortcut .text{
     padding-top: 8%;
     }
 
-    header nav .interior a.menu{
+    header nav .interior > a.menu{
         border-top: none;
         padding-bottom: 15px;
         border-bottom: 2px solid #0065FC;
     }
 
+    header nav .interior .menu {
+        width: 100%;
+        margin-right: 0;
+    }
+
     header nav .interior .menu{
         padding-left: 13%;
+    }
+
+    main section{
+        margin: 0px 0px 0px 0px;
     }
 
     main section .filters h2{
@@ -541,13 +565,18 @@ footer .shortcut .text{
     }
 
     main section aside {
-        width: 98%;
+        width: 100%;
+        border-radius: 0px 0px 0px 0px;
     }
 
     main section aside .blocktwo {
         display: flex;
-        width: 94%;
+        width: 100%;
         flex-wrap: wrap;
+    }
+
+    main section .container-accomodation .accommodation .subtitl{
+        padding: 13px 11px 0px 23px;
     }
 
     main section aside .pixel{
@@ -563,8 +592,8 @@ footer .shortcut .text{
     main section .activity .one {
         width: 100%;
         height: auto;
-        margin-left: auto;
-        margin-right: 4%;
+        margin-left: 8%;
+        margin-right: 8%;
         margin-top: auto;
         margin-bottom: auto;
     }
@@ -572,9 +601,9 @@ footer .shortcut .text{
     main section .activity .two {
         height: auto;
         width: 100%;
-        margin-left: auto;
+        margin-left: 8%;
         margin-bottom: auto;
-        margin-right: 4%;
+        margin-right: 5%;
         margin-top: 4%;
     }
 
@@ -591,7 +620,7 @@ footer .shortcut .text{
     }
 
     main section .container-accomodation .subtitle{
-        padding: 25px 13px 13px 28px;
+        padding: 0px 6px 13px 20px;
     }
 
     footer{
