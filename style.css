@@ -40,13 +40,20 @@ header nav a.menu{
     color:#0065FC;
     letter-spacing: 1px;
     text-decoration: none;
-    margin-right: 20px;
 }
 
 header nav a.menu:hover{
     padding-top: 15px;
     border-top: 2px solid #0065FC;
     
+}
+
+header nav .interior{
+    width: 9%;
+}
+
+header nav .interior .menu{
+    margin-right: 3%;
 }
 
 main section .rental{
@@ -124,7 +131,7 @@ main section .filter .fas{
 }
 
 main section .filters .filter .button:hover{
-    background-color: #0065FC;
+    background-color: #DEEBFF;
 }
 
 main section .filters .filter .button{
@@ -330,8 +337,8 @@ main section .activity .one{
 
     background: white;
     border-radius: 19px 19px 19px 19px;
-    width: 16%;
-    height: 305px;
+    width: 24%;
+    height: 403px;
     margin-top: 25px;
     margin-bottom: 82px;
     box-shadow: 6px 6px 6px gray;
@@ -348,7 +355,7 @@ main section .activity .one img{
 }
 
 main section .activity .two{
-    width: 15%;
+    width: 21%;
     height: 305px;
     margin-top: 25px;
     margin-bottom: 82px;
@@ -362,8 +369,8 @@ main section .activity .two .small{
     border-radius: 19px 19px 0px 0px;
     border-radius: 19px 19px 19px 19px;
     box-shadow: 6px 6px 6px gray;
-    width: 95%;
-    height: 132px;
+    width: 90%;
+    height: 178px;
     margin-bottom: 47px;
 
 }
@@ -521,7 +528,8 @@ footer .shortcut .text{
     }
 
     main section .filter {
-        margin-right: 40px;
+        margin-right: 44px;
+        margin-bottom: 9px;
        
     }
 
@@ -576,7 +584,7 @@ footer .shortcut .text{
     }
 
     main section .container-accomodation .accommodation .subtitl{
-        padding: 13px 11px 0px 23px;
+        padding: 18px 80px 0px 18px;
     }
 
     main section aside .pixel{
@@ -595,7 +603,7 @@ footer .shortcut .text{
         margin-left: 8%;
         margin-right: 8%;
         margin-top: auto;
-        margin-bottom: auto;
+        margin-bottom: 36px;
     }
 
     main section .activity .two {
@@ -609,7 +617,8 @@ footer .shortcut .text{
 
     main section .activity .two .small {
         height: 245px;
-        margin-bottom: 12px;
+        width: 96%;
+        margin-bottom: 36px;
     }
 
     main section .activity .two .small img {
@@ -620,7 +629,7 @@ footer .shortcut .text{
     }
 
     main section .container-accomodation .subtitle{
-        padding: 0px 6px 13px 20px;
+        padding: 0px 0px 20px 20px;
     }
 
     footer{
