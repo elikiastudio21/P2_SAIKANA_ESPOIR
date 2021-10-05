@@ -33,20 +33,33 @@ main section{
     background-color: rgb(255, 255, 255);
 }
 
-
-
 header nav a.menu{
-   
-    color:#0065FC;
+    color: #0065FC;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+
+header nav .interior a.menu{
+    color: grey;
     letter-spacing: 1px;
     text-decoration: none;
 }
 
 header nav a.menu:hover{
     padding-top: 15px;
+    color: #0065FC;
     border-top: 2px solid #0065FC;
     
 }
+
+header nav a.menu:active{
+    padding-top: 15px;
+    color: #0065FC;
+    border-top: 2px solid #0065FC;
+    
+}
+
+
 
 header nav .interior{
     width: 9%;
@@ -504,10 +517,18 @@ footer .shortcut .text{
     padding-top: 8%;
     }
 
-    header nav .interior > a.menu{
+    header nav .interior a.menu{
         border-top: none;
+        color: #0065FC;
         padding-bottom: 15px;
         border-bottom: 2px solid #0065FC;
+    }
+
+    header nav .interior a.menu:hover{
+        border-top: none;
+        color: grey;
+        padding-bottom: 15px;
+        border-bottom: 2px solid grey;
     }
 
     header nav .interior .menu {
