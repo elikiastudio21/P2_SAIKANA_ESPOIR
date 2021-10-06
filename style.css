@@ -208,11 +208,10 @@ main section .container-accomodation .accommodation .subtitl{
 }
 
 
-main section .pixel{
+main section .block .pixel{
     background: white;
     border-radius: 19px 19px 19px 19px;
     width: 26%;
-    height: 217px;
     margin-left: 5%;
     margin-top: 42px;
     padding: 7px 6px 17px 7px;
@@ -293,6 +292,10 @@ main section aside .sub .fas{
     margin-left: 17px;
 }
 
+main section aside .blocktwo{
+    display: flex;
+    flex-wrap: wrap;
+}
 
 main section aside .pixel{
     display: flex;
@@ -300,11 +303,8 @@ main section aside .pixel{
     background: white;
     border-radius: 19px 19px 19px 19px;
     width: 88%;
-    height: 118px;
-    margin-left: 9px;
-    margin-top: 51px;
-    margin-bottom: 45px;
-    padding: 7px 6px 17px 7px;
+    margin: auto;
+    padding: 7px 6px 7px 7px;
     box-shadow: 6px 6px 6px gray;
 }
 
