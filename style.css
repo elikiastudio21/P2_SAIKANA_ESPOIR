@@ -69,6 +69,12 @@ header nav .interior .menu{
     margin-right: 3%;
 }
 
+main {
+    font-family: 'Raleway';
+    display: flex;
+    flex-wrap: wrap;
+}
+
 main section .rental{
     display: flex;
 }
@@ -185,7 +191,7 @@ main section .info .fas{
     border: #F2F2F2 solid 1px;
 }
 
-main section .container-accomodation > .accommodation{
+main section .accommodation{
     background: #F2F2F2;
     width: 73%;
     margin-right: 2%;
@@ -193,7 +199,7 @@ main section .container-accomodation > .accommodation{
     
 }
 
-main section .container-accomodation .subtitle{
+main section .subtitle{
     padding: 25px 13px 0px 28px;
     font-size: 20px;
     font-weight: 800;
@@ -201,7 +207,7 @@ main section .container-accomodation .subtitle{
     margin-bottom: 0;
 }
 
-main section .container-accomodation .accommodation .subtitl{
+main section .accommodation .subtitl{
     padding: 45px 16px 0px 44px;
     font-size: 19px;
     font-weight: 800;
@@ -246,9 +252,8 @@ main section .remark .text{
     margin-bottom: 6px;
 }
 
-main section .star .fas{
+main .star .fas{
     color: #0065FC;
-    
 }
 
 
@@ -271,23 +276,17 @@ main section .block{
     width: 100%;
 }
 
-main section aside{
+main aside{
     width: 25%;
     background: #F2F2F2;
     border-radius: 25px 25px 25px 25px;
-    
-
 }
 
-main section .container-accomodation{
-    display: flex;
-    flex-wrap: wrap;
-}
-main section aside .sub{
+main aside .sub{
     display: flex;
     align-items: flex-end;
 }
-main section aside .sub .fas{
+main aside .sub .fas{
     font-size: x-large;
     margin-left: 17px;
 }
@@ -295,9 +294,10 @@ main section aside .sub .fas{
 main section aside .blocktwo{
     display: flex;
     flex-wrap: wrap;
+    height: 85%;
 }
 
-main section aside .pixel{
+main aside .pixel{
     display: flex;
     flex-wrap: wrap;
     background: white;
@@ -308,14 +308,14 @@ main section aside .pixel{
     box-shadow: 6px 6px 6px gray;
 }
 
-main section aside .pixel img{
+main aside .pixel img{
     border-radius: 19px 0px 0px 19px;
     width: 39%;
     height: 130px;
     object-fit: cover;
 }
 
-main section aside .remark .title{
+main aside .remark .title{
 
     font-weight: bold;
     font-size: 14px;
@@ -323,13 +323,13 @@ main section aside .remark .title{
     margin-bottom: 5px;
 }
 
-main section aside .remark .text{
+main aside .remark .text{
     font-size: 12px;
     margin-top: 0;
     margin-bottom: 35px;
 }
 
-main section aside .subtitle{
+main aside .subtitle{
     font-size: 25px;
     font-weight: 800;
     margin-top: 100px;
@@ -337,16 +337,16 @@ main section aside .subtitle{
 
 }
 
-main section .container-accomodation .conteneur{
+main .conteneur{
     width: 100%;
 }
 
-main section .activity{
+main .conteneur .activity{
     display: flex;
     
 }
 
-main section .activity .one{
+main .conteneur .activity .one{
 
     background: white;
     border-radius: 19px 19px 19px 19px;
@@ -361,7 +361,7 @@ main section .activity .one{
     color: black;
 }
 
-main section .activity .one img{
+main .conteneur .activity .one img{
     border-radius: 19px 19px 0px 0px;
     height: 87%;
     margin: 0;
@@ -369,7 +369,7 @@ main section .activity .one img{
     object-fit: cover;
 }
 
-main section .activity .two{
+main .conteneur .activity .two{
     width: 18%;
     height: 305px;
     margin-right: 1%;
@@ -380,7 +380,7 @@ main section .activity .two{
 
 }
 
-main section .activity .two .small{
+main .conteneur .activity .two .small{
     background: white;
     border-radius: 19px 19px 0px 0px;
     border-radius: 19px 19px 19px 19px;
@@ -391,7 +391,7 @@ main section .activity .two .small{
 
 }
 
-main section .activity .two .small img{
+main .conteneur .activity .two .small img{
     border-radius: 19px 19px 0px 0px;
     width: 100%;
     height: 75%;
@@ -400,7 +400,7 @@ main section .activity .two .small img{
     object-fit: cover;
 }
 
-main section .activity .title{
+main .conteneur .activity .title{
     margin-top: 10px;
     margin-left: 15px;
     margin-left: 4%;
