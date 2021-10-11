@@ -34,12 +34,16 @@ main section{
 }
 
 header nav a.menu{
+    padding-top: 17px;
     color: #0065FC;
     letter-spacing: 1px;
     text-decoration: none;
 }
+header nav .interior{
+    padding-top: 17px;
+}
 
-header nav .interior a.menu{
+header nav .interior a{
     color: grey;
     letter-spacing: 1px;
     text-decoration: none;
@@ -53,7 +57,6 @@ header nav a.menu:hover{
 }
 
 header nav a.menu:active{
-    padding-top: 15px;
     color: #0065FC;
     border-top: 2px solid #0065FC;
     
@@ -75,16 +78,16 @@ main {
     flex-wrap: wrap;
 }
 
-main section .rental{
+main .foreground .rental{
     display: flex;
 }
 
-main section form p{
+main .foreground form p{
     margin: auto;
     
 }
 
-main section form input{
+main .foreground form input{
     height: 36px;
     width: 160px;
     font-family: 'Raleway';
@@ -93,7 +96,7 @@ main section form input{
     
 }
 
-main section .icon{
+main .foreground .icon{
     background: #F2F2F2;
     width: 44px;
     height: 40px;
@@ -103,11 +106,11 @@ main section .icon{
     justify-content: center;
 }
 
-main section.fas{
+main .foreground .fas{
     color: black;
 }
 
-button{
+main .foreground button{
     background: #0065FC ;
     color: white;
     font-family: 'Raleway';
@@ -117,7 +120,7 @@ button{
     border: none;
 }
 
-main section .filters{
+main .foreground .filters{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -125,19 +128,19 @@ main section .filters{
 }
 
 
-main section .filters h2{
+main .foreground .filters h2{
     font-size: 16px;
     margin-right: 50px;
 }
 
 
-main section .filter{
+main .foreground .filter{
     display: flex;
     align-items: center;
     margin-right: 30px;
 }
 
-main section .filter .fas{
+main .foreground .filter .fas{
     color: #0065FC ;
     background: #DEEBFF;
     width: 40px;
@@ -149,11 +152,11 @@ main section .filter .fas{
     z-index: 1;
 }
 
-main section .filters .filter .button:hover{
+main .foreground .filters .filter .button:hover{
     background-color: #DEEBFF;
 }
 
-main section .filters .filter .button{
+main .foreground .filters .filter .button{
     border: #F2F2F2 solid 2px;
     padding-left: 1rem;
     padding-right: 0.5rem;
@@ -172,13 +175,13 @@ main section .filters .filter .button{
 }
 
 
-main section .info{
+main .foreground .info{
     display: flex;
     align-items: center;
     margin-bottom: 25px;
 }
 
-main section .info .fas{
+main .foreground .info .fas{
     color: #0065FC;
     /* background: #DEEBFF; */
     width: 30px;
@@ -191,7 +194,11 @@ main section .info .fas{
     border: #F2F2F2 solid 1px;
 }
 
-main section .accommodation{
+main .second{
+    display: flex;
+}
+
+main .second article{
     background: #F2F2F2;
     width: 73%;
     margin-right: 2%;
@@ -199,7 +206,7 @@ main section .accommodation{
     
 }
 
-main section .subtitle{
+main .second .subtitle{
     padding: 25px 13px 0px 28px;
     font-size: 20px;
     font-weight: 800;
@@ -207,14 +214,14 @@ main section .subtitle{
     margin-bottom: 0;
 }
 
-main section .accommodation .subtitl{
+main .second article .subtitl{
     padding: 45px 16px 0px 44px;
     font-size: 19px;
     font-weight: 800;
 }
 
 
-main section .block .pixel{
+main .second .block .pixel{
     background: white;
     border-radius: 19px 19px 19px 19px;
     width: 26%;
@@ -227,18 +234,18 @@ main section .block .pixel{
 }
 
 
-main section .pixel img{
+main .second .pixel img{
     border-radius: 19px 19px 0px 0px;
     width: 100%;
     height: 160px;
     object-fit: cover;
 }
 
-main section .remark{
+main .second .remark{
     padding-left: 12px;
 }
 
-main section .remark .title{
+main .second .remark .title{
 
     font-weight: bold;
     font-size: 14px;
@@ -246,7 +253,7 @@ main section .remark .title{
     margin-bottom: 5px;
 }
 
-main section .remark .text{
+main .second .remark .text{
     font-size: 12px;
     margin-top: 0;
     margin-bottom: 6px;
@@ -270,34 +277,34 @@ main .star .fas{
 }
 
 
-main section .block{
+main .second .block{
     display: flex;
     flex-wrap: wrap;
     width: 100%;
 }
 
-main aside{
+main .second aside{
     width: 25%;
     background: #F2F2F2;
     border-radius: 25px 25px 25px 25px;
 }
 
-main aside .sub{
+main .second aside .sub{
     display: flex;
     align-items: flex-end;
 }
-main aside .sub .fas{
+main .second  aside .sub .fas{
     font-size: x-large;
     margin-left: 17px;
 }
 
-main section aside .blocktwo{
+main .second aside .blocktwo{
     display: flex;
     flex-wrap: wrap;
     height: 85%;
 }
 
-main aside .pixel{
+main .second  aside .pixel{
     display: flex;
     flex-wrap: wrap;
     background: white;
@@ -308,14 +315,14 @@ main aside .pixel{
     box-shadow: 6px 6px 6px gray;
 }
 
-main aside .pixel img{
+main .second aside .pixel img{
     border-radius: 19px 0px 0px 19px;
     width: 39%;
     height: 130px;
     object-fit: cover;
 }
 
-main aside .remark .title{
+main .second  aside .remark .title{
 
     font-weight: bold;
     font-size: 14px;
@@ -323,13 +330,13 @@ main aside .remark .title{
     margin-bottom: 5px;
 }
 
-main aside .remark .text{
+main .second  aside .remark .text{
     font-size: 12px;
     margin-top: 0;
     margin-bottom: 35px;
 }
 
-main aside .subtitle{
+main .second aside .subtitle{
     font-size: 25px;
     font-weight: 800;
     margin-top: 100px;
