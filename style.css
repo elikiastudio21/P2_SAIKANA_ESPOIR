@@ -19,7 +19,7 @@ header > a{
 header nav{
 
     padding: 0px;
-    font-size: 13px;
+    font-size: 17px;
     display: flex;
     flex-wrap: wrap;
     width: 100%;
@@ -40,7 +40,8 @@ header nav a.menu{
     text-decoration: none;
 }
 header nav .interior{
-    padding-top: 17px;
+    padding-top: 2px;
+    display: flex;
 }
 
 header nav .interior a{
@@ -65,11 +66,11 @@ header nav a.menu:active{
 
 
 header nav .interior{
-    width: 9%;
+    width: 17%;
 }
 
 header nav .interior .menu{
-    margin-right: 3%;
+    margin-right: 20%;
 }
 
 main {
@@ -196,6 +197,9 @@ main .foreground .info .fas{
 
 main .second{
     display: flex;
+    font-size: 25px;
+    font-weight: 800;
+
 }
 
 main .second article{
@@ -336,14 +340,6 @@ main .second  aside .remark .text{
     margin-bottom: 35px;
 }
 
-main .second aside .subtitle{
-    font-size: 25px;
-    font-weight: 800;
-    margin-top: 100px;
-
-
-}
-
 main .conteneur{
     width: 100%;
 }
@@ -420,8 +416,8 @@ main .conteneur .activity .title{
     justify-content: space-between;
     font-family: raleway;
     align-items: center;
+    height: 223px;
     width: 100%;
-    height: 260px;
     background:  #F2F2F2;
 }
 
@@ -436,8 +432,10 @@ footer .shortcut .title{
     font-weight: bold;
 }
 
-footer .shortcut .text{
+footer .shortcut a.text{
     font-size: 16px;
+    color: black;
+    text-decoration: none;
     
 }
 
