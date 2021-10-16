@@ -16,6 +16,10 @@ header > a{
     position: absolute;
 }
 
+header > img{
+    object-fit: cover;
+}
+
 header nav{
 
     padding: 0px;
@@ -439,260 +443,38 @@ footer .shortcut a.text{
     
 }
 
-@media (max-width: 768px){
 
-    header nav .interior {
-        width: 23%;
-        display: flex;
-    }
+@media screen and  (max-width: 1570px) {
 
-   main section .pixel {
-    width: 41%;
-    }
-
-    main section .activity .title{
-        margin-top: 3px;
-        margin-left: 16px;
-    }
-
-    main section .container-accomodation > .accommodation{
-        width: 100%;
-        margin-bottom: 3%;
-    }
-
-    main section aside{
-        width: 100%;
-        
-    }
-
-    main section aside .blocktwo{
-        display: flex;
-        width: 98%;
-    }
-
-    main section aside .pixel{
-        margin-left: 14px;
-    }
-
-    main section aside .remark {
-        padding-left: 4px;
-    }
-    
-    main section .activity .one {
-    height: 19%;
-    width: 46%;
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-top: 37px;
-    margin-bottom: 30px;
-    }
-
-    
-    main section .activity .two {
-        height: auto;
-        width: 37%;
-        margin-left: 60px;
-        margin-right: 0;
-        margin-top: 40px;
-        margin-bottom: 0;
-    }
-
-    main section .activity .two .small{
-        height: 122px;
-        width: 96%;
-        margin-bottom: 27px;
-    
-    }
-
-    main section .activity, main section .activity .two{
-        flex-wrap: wrap;
-    }
-
-
-}
-
-
-@media (max-width: 375px) {
-  
-
-    nav{
-        display: flex;
-    }
     header{
-        margin: 19px 0px 0px 0px;
-    }
-
-    header > a{
-        margin-left: 4%;
-        padding-bottom: 16%;
-    }
-
-    header nav > a.menu{
-        margin-right: 43px;
-        font-weight: 900;
-    }
-
-    header nav .interior{
-    width: 100%;
-    display: flex;
-    padding-top: 8%;
-    }
-
-    main section aside .sub .fas{
-        display: flex;
-        align-self: self-start;
-    }
-
-    main section aside .sub{
-        margin-top: 4%;
-    }
-
-    header nav .interior a.menu{
-        border-top: none;
-        color: #0065FC;
-        padding-bottom: 15px;
-        border-bottom: 2px solid #0065FC;
-    }
-
-    header nav .interior a.menu:hover{
-        border-top: none;
-        color: grey;
-        padding-bottom: 15px;
-        border-bottom: 2px solid grey;
-    }
-
-    header nav .interior .menu {
-        width: 100%;
-        margin-right: 0;
-    }
-
-    header nav .interior .menu{
-        padding-left: 13%;
-    }
-
-    main section{
         margin: 0px 0px 0px 0px;
     }
 
-    main section .filters h2{
-        width: 100%;
+    header img{
+        width: 130%;
     }
 
-    main section .filter {
-        margin-right: 44px;
-        margin-bottom: 9px;
-       
+    header nav {
+        padding-left: 90%;
+        flex-direction: column-reverse;
     }
 
-    main section .filters .filter .button{
-        font-size: 0.8rem;
-        font-weight: 900;
+    header nav .interior{
+        flex-direction: column;
     }
 
-    main section .container-accomodation > .accommodation{
-        width: 100%;
-        margin-bottom: 5%;
-        margin-bottom: 7%;
+    header nav a.menu:hover{
+        color: #0065FC;
     }
 
-    main section .accommodation:nth-child(1){
-        order: 2;
-        background: white;
-
+    main .second article{
+        width: auto;
     }
 
-    main section aside:nth-child(2){
-        order: 1;
-        margin-bottom: 7%;
-
+    main .second aside{
+        width: auto;
     }
 
-    main section .conteneur:nth-child(3){
-        order: 3;
-
-    }
-
-    main section .block {
-        display: flex;
-        flex-wrap: wrap;
-        width: 100%;
-    }
-
-    main section .pixel{
-        width: 83%; 
-        
-    }
-
-    main section aside {
-        width: 100%;
-        border-radius: 0px 0px 0px 0px;
-    }
-
-    main section aside .blocktwo {
-        display: flex;
-        width: 100%;
-        flex-wrap: wrap;
-    }
-
-    main section .container-accomodation .accommodation .subtitl{
-        padding: 18px 80px 0px 18px;
-    }
-
-    main section aside .pixel{
-        margin-top: 21px;
-        margin-bottom: 19px;
-    }
-
-    main section .activity {
-        display: flex;
-        flex-wrap: wrap;
-    }
-
-    main section .activity .one {
-        width: 100%;
-        height: auto;
-        margin-left: 8%;
-        margin-right: 8%;
-        margin-top: auto;
-        margin-bottom: 36px;
-    }
-
-    main section .activity .two {
-        height: auto;
-        width: 100%;
-        margin-left: 8%;
-        margin-bottom: auto;
-        margin-right: 5%;
-        margin-top: 4%;
-    }
-
-    main section .activity .two .small {
-        height: 245px;
-        width: 96%;
-        margin-bottom: 36px;
-    }
-
-    main section .activity .two .small img {
-        border-radius: 19px 19px 0px 0px;
-        width: 100%;
-        height: 86%;
-       
-    }
-
-    main section .container-accomodation .subtitle{
-        padding: 0px 0px 3px 20px;
-    }
-
-    footer{
-        height: auto;
-        flex-wrap: wrap;
-        margin-top: 4%;
-
-    }
-
-    body{
-        margin: auto;
-    }
-
-
+    
+    
 }
