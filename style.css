@@ -1,8 +1,10 @@
 @font-face {
     font-family: 'Raleway';
     src: url('font/Raleway-Regular.ttf') format('ttf');
- /* test */
+ 
 }
+
+
 
 header{
     display: flex;
@@ -42,7 +44,10 @@ header nav a.menu{
     color: #0065FC;
     letter-spacing: 1px;
     text-decoration: none;
+    margin-left: 2%;
+
 }
+
 header nav .interior{
     padding-top: 2px;
     display: flex;
@@ -173,7 +178,7 @@ main .foreground .filters .filter .button{
     /* width: 50%; */
     height: 36px;
     z-index: 0;
-    font-weight: bold;
+    font-weight: 600;
     color: black;
     text-decoration: none;
 }
@@ -216,7 +221,7 @@ main .second article{
 main .second .subtitle{
     padding: 25px 13px 0px 28px;
     font-size: 20px;
-    font-weight: 800;
+    font-weight: 600;
     margin-top: 0;
     margin-bottom: 0;
 }
@@ -224,7 +229,7 @@ main .second .subtitle{
 main .second article .subtitl{
     padding: 45px 16px 0px 44px;
     font-size: 19px;
-    font-weight: 800;
+    font-weight: 600;
 }
 
 
@@ -254,7 +259,7 @@ main .second .remark{
 
 main .second .remark .title{
 
-    font-weight: bold;
+    font-weight: 600;
     font-size: 14px;
     margin-top: 2px;
     margin-bottom: 5px;
@@ -264,6 +269,7 @@ main .second .remark .text{
     font-size: 12px;
     margin-top: 0;
     margin-bottom: 6px;
+    font-weight: normal;
 }
 
 main .star .fas{
@@ -347,6 +353,12 @@ main .conteneur{
     width: 100%;
 }
 
+main .conteneur .subtitle{
+    padding: 45px 16px 0px 44px;
+    font-size: 19px;
+    font-weight: 600;
+}
+
 main .conteneur .activity{
     display: flex;
     
@@ -411,7 +423,7 @@ main .conteneur .activity .title{
     margin-left: 15px;
     margin-left: 4%;
     font-size: 14px;
-    font-weight: bold;
+    font-weight: 600;
 }
 
  footer{
@@ -443,27 +455,24 @@ footer .shortcut a.text{
 }
 
 
-@media screen and  (max-width: 1570px) {
+@media screen and  (max-width: 1502px) {
 
-    header{
-        margin: 0px 0px 0px 0px;
+    header nav .interior {
+        width: 23%;
     }
 
-    header img{
-        width: 130%;
+    main .second aside .pixel{
+        width: 90%;
+        margin-top: 4% ;
     }
 
-    header nav {
-        padding-left: 90%;
-        flex-direction: column-reverse;
-    }
+}
 
-    header nav .interior{
-        flex-direction: column;
-    }
 
-    header nav a.menu:hover{
-        color: #0065FC;
+@media screen and (max-width: 1202px){
+
+    header nav .interior {
+        width: 35%;
     }
 
     main .second{
@@ -471,18 +480,17 @@ footer .shortcut a.text{
     }
 
     main .second article{
-        width: auto;
-        margin-right: 0;
+        width: 100%;
     }
 
     main .second aside{
-        width: auto;
+        width: 100%;
+        margin-top: 3%;
     }
 
-    footer {
-        flex-wrap: wrap;
+    main .second .block .pixel{
+        margin-left: 4%;
+        width: 41%;
     }
-tyi
-    
-    
+
 }
