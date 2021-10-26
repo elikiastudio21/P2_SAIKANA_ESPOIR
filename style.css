@@ -59,16 +59,13 @@ header nav .interior a{
     text-decoration: none;
 }
 
-header nav a.menu:hover{
-    padding-top: 15px;
+header nav .interior > a{
     color: #0065FC;
     border-top: 2px solid #0065FC;
-    
 }
 
-header nav a.menu:active{
-    color: #0065FC;
-    border-top: 2px solid #0065FC;
+header nav a.menu:hover{
+    padding-top: 15px;
     
 }
 
@@ -369,7 +366,6 @@ main .conteneur .activity .one{
     background: white;
     border-radius: 19px 19px 19px 19px;
     width: 16%;
-    height: 403px;
     margin-right: 7%;
     margin-left: 5%;
     margin-top: 25px;
@@ -381,7 +377,7 @@ main .conteneur .activity .one{
 
 main .conteneur .activity .one img{
     border-radius: 19px 19px 0px 0px;
-    height: 87%;
+    height: 87%; 
     margin: 0;
     max-width: 100%;
     object-fit: cover;
@@ -389,7 +385,6 @@ main .conteneur .activity .one img{
 
 main .conteneur .activity .two{
     width: 18%;
-    height: 305px;
     margin-right: 1%;
     margin-top: 25px;
     margin-bottom: 82px;
@@ -431,7 +426,7 @@ main .conteneur .activity .title{
     justify-content: space-between;
     font-family: raleway;
     align-items: center;
-    height: 223px;
+    height: auto;
     width: 100%;
     background:  #F2F2F2;
 }
@@ -469,7 +464,7 @@ footer .shortcut a.text{
 }
 
 
-@media screen and (max-width: 1202px){
+@media screen and (max-width: 1327px){
 
     header nav .interior {
         width: 35%;
@@ -484,8 +479,12 @@ footer .shortcut a.text{
     }
 
     main .second aside{
-        width: 100%;
+        width: 98%;
         margin-top: 3%;
+    }
+
+    main .second aside .blocktwo{
+        margin-bottom: 4%;
     }
 
     main .second .block .pixel{
@@ -493,4 +492,134 @@ footer .shortcut a.text{
         width: 41%;
     }
 
+    main .conteneur .activity{
+        flex-wrap: wrap;
+        margin: auto;
+    }
+    
+
+    main .conteneur .activity .one {
+        width: 45%;
+        margin: auto;
+    }
+
+    main .conteneur .activity .two {
+        width: 45%;
+    }
+
+    main .conteneur .activity .one img{
+        height: auto;
+    }
+
+    footer{
+        flex-wrap: wrap;
+    }
+
+
+}
+
+/* MOBILE */
+@media screen and (max-width: 524px){
+
+    header > a {
+        margin-bottom: 19%;
+    }
+
+    header nav .interior{
+        margin-top: 8%;
+        width: 95%;
+    }
+
+    header nav > .menu{
+        font-weight: bold;
+    }
+
+    header nav .interior > a.menu{
+        color: #0065FC;
+        padding-bottom: 15px;
+        border-top: none;
+        border-bottom: 2px solid #0065FC;
+    }
+    
+    main .foreground .filters h2{
+        margin-right: 100%;
+    }
+
+    main .foreground .filter{
+        margin-right: 33px;
+        margin-bottom: 2%;
+    }
+
+    main .second aside .blocktwo{
+        height: auto;
+    }
+    
+    main .second .block .pixel{
+        margin-left: 0%;
+        width: 100%;
+        margin-top: 22px;
+    }
+
+    main .second aside .pixel img{
+        width: 100%;
+        border-radius: 20px;
+    }
+
+    main .second article .subtitl {
+        padding: 3px 1px 0px 44px;
+
+    }
+
+    main .second article{
+        background: white;
+    }
+
+    article:nth-child(1){
+        order: 2;
+    }
+
+    aside:nth-child(2){
+        order: 1;
+    }
+
+    main .conteneur .activity{
+        flex-wrap: wrap;
+        margin: auto;
+    }
+
+
+    main .conteneur .subtitle {
+        padding: 0px 16px 0px 44px;
+
+    }
+
+    main .conteneur .activity .one{
+        width: 100%;
+        margin-right: 0%;
+        margin-left: 0%;
+        margin-top: 0%;
+        margin-bottom: 14%;
+
+    }
+
+    main .conteneur .activity .one img{
+    height: auto;
+    }
+
+    main .conteneur .activity .two{
+     width: 100%;
+    margin-right: 0%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    }
+
+    main .conteneur .activity .two .small{
+        width: 100%;
+    }
+
+
+
+    footer{
+        flex-wrap: wrap;
+    }
 }
