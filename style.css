@@ -59,7 +59,7 @@ header nav .interior a{
     text-decoration: none;
 }
 
-header nav .interior > a:nth-child(1){
+header nav .interior a.menu:hover {
     color: #0065FC;
     border-top: 2px solid #0065FC;
 }
@@ -534,13 +534,19 @@ footer .shortcut a.text{
         font-weight: bold;
     }
 
-    header nav .interior > a.menu{
-        color: #0065FC;
-        padding-bottom: 15px;
-        border-top: none;
-        border-bottom: 2px solid #0065FC;
-    }
     
+    header nav .interior a.menu:hover {
+        color: #0065FC;
+        border-bottom: 2px solid #0065FC;
+        border-top: none;
+    }
+
+    header nav a.menu:hover{
+        padding-bottom: 15px;
+        
+        
+    }
+
     main .foreground .filters h2{
         margin-right: 100%;
     }
