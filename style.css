@@ -641,4 +641,8 @@ footer .shortcut a.text{
     footer{
         flex-wrap: wrap;
     }
+
+    footer .shortcut a.text{
+        font-size: 14px;
+    }
 }
