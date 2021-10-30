@@ -525,6 +525,10 @@ footer .shortcut a.text{
         margin-bottom: 19%;
     }
 
+    header {
+        margin: 0;
+    }
+
     header nav .interior{
         margin-top: 8%;
         width: 95%;
@@ -534,18 +538,27 @@ footer .shortcut a.text{
         font-weight: bold;
     }
 
+    header nav .interior .menu{
+        margin-right: 0;
+        display: inline-block;
+        width: 50%;
+        margin-left: 0;
+        text-align: center;
+    }
+    header nav .interior a.menu:link{
+        padding-bottom: 15px;
+        border-bottom: 2px solid gray;
+        border-top: none;
+    }
+
     
     header nav .interior a.menu:hover {
         color: #0065FC;
         border-bottom: 2px solid #0065FC;
         border-top: none;
-    }
-
-    header nav a.menu:hover{
         padding-bottom: 15px;
-        
-        
     }
+    
 
     main .foreground .filters h2{
         margin-right: 100%;
