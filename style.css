@@ -569,6 +569,18 @@ footer .shortcut a.text{
         margin-bottom: 2%;
     }
 
+    main .second{
+        margin: 0;
+    }
+
+    main .second aside {
+        border-radius: 0;
+    }
+
+    main .second .pixel .star{
+        font-size: 12px;
+    }
+
     main .second aside .blocktwo{
         height: auto;
     }
