@@ -215,12 +215,10 @@ main .second article{
     
 }
 
-main .second .subtitle{
+main .second h2{
     padding: 25px 13px 0px 28px;
     font-size: 20px;
-    font-weight: 600;
-    margin-top: 0;
-    margin-bottom: 0;
+  
 }
 
 main .second article .subtitl{
@@ -237,13 +235,13 @@ main .second .block .pixel{
     margin-left: 5%;
     margin-top: 42px;
     padding: 7px 6px 17px 7px;
-    box-shadow: 6px 6px 6px gray;
+    box-shadow: 6px 6px 6px #8080802e;
     color: black;
     text-decoration: none;
 }
 
 
-main .second .pixel img{
+main .second .block .pixel img{
     border-radius: 19px 19px 0px 0px;
     width: 100%;
     height: 160px;
@@ -303,6 +301,10 @@ main .second aside .sub{
     display: flex;
     align-items: flex-end;
 }
+main .second aside .sub h2{
+    font-size: 20px;
+}
+
 main .second  aside .sub .fas{
     font-size: x-large;
     margin-left: 17px;
@@ -322,7 +324,7 @@ main .second  aside .pixel{
     width: 88%;
     margin: auto;
     padding: 7px 6px 7px 7px;
-    box-shadow: 6px 6px 6px gray;
+    box-shadow: 6px 6px 6px #8080802e;
 }
 
 main .second aside .pixel img{
@@ -350,10 +352,9 @@ main .conteneur{
     width: 100%;
 }
 
-main .conteneur .subtitle{
+main .conteneur h2{
     padding: 45px 16px 0px 44px;
-    font-size: 19px;
-    font-weight: 600;
+    font-size: 20px;
 }
 
 main .conteneur .activity{
@@ -370,7 +371,7 @@ main .conteneur .activity .one{
     margin-left: 5%;
     margin-top: 25px;
     margin-bottom: 82px;
-    box-shadow: 6px 6px 6px gray;
+    box-shadow: 6px 6px 6px #8080802e;
     text-decoration: none;
     color: black;
 }
@@ -397,7 +398,7 @@ main .conteneur .activity .two .small{
     background: white;
     border-radius: 19px 19px 0px 0px;
     border-radius: 19px 19px 19px 19px;
-    box-shadow: 6px 6px 6px gray;
+    box-shadow: 6px 6px 6px #8080802e;
     width: 90%;
     height: 178px;
     margin-bottom: 47px;
@@ -531,7 +532,7 @@ footer .shortcut a.text{
 
     header nav .interior{
         margin-top: 8%;
-        width: 95%;
+        width: 100%;
     }
 
     header nav > .menu{
@@ -569,6 +570,10 @@ footer .shortcut a.text{
         margin-bottom: 2%;
     }
 
+    main .foreground .info{
+        margin-bottom: 8px;
+    }
+
     main .second{
         margin: 0;
     }
@@ -584,25 +589,43 @@ footer .shortcut a.text{
     main .second aside .blocktwo{
         height: auto;
     }
+
+    main .second h2{
+        padding: 18px 0px 0px 9px;
+    }
     
     main .second .block .pixel{
         margin-left: 0%;
         width: 100%;
-        margin-top: 22px;
+        margin-top: 13px;
+    }
+
+    main .second aside .sub .fas {
+        margin-left: 79px;
+        font-size: 20px;
     }
 
     main .second aside .pixel img{
-        width: 100%;
-        border-radius: 20px;
+        
+        width: 42%;
+        height: 115px;
+        border-radius: 20px 0px 0px 20px;
     }
 
-    main .second article .subtitl {
-        padding: 3px 1px 0px 44px;
+    main .second article h2 {
+        padding: 3px 1px 0px 9px;
 
     }
 
     main .second article{
         background: white;
+        margin-left: 2%;
+        margin-right: 4%;
+    }
+
+    main .second .block .pixel img{
+    height: 99px;
+    
     }
 
     article:nth-child(1){
@@ -612,29 +635,40 @@ footer .shortcut a.text{
     aside:nth-child(2){
         order: 1;
     }
+    main .second article .subtitl {
+        padding: 10px 0px 0px 1px;
+    }
+
+    main .conteneur{
+        margin: 0;
+    }
 
     main .conteneur .activity{
         flex-wrap: wrap;
         margin: auto;
+        margin-left: 2%;
+        margin-right: 4%;
     }
 
 
-    main .conteneur .subtitle {
-        padding: 0px 16px 0px 44px;
+    main .conteneur h2 {
+        padding: 0px 16px 0px 9px;
 
     }
 
     main .conteneur .activity .one{
         width: 100%;
+        height: 178px;
         margin-right: 0%;
         margin-left: 0%;
         margin-top: 0%;
-        margin-bottom: 14%;
+        margin-bottom: 7%;
 
     }
 
     main .conteneur .activity .one img{
-    height: auto;
+        width: 100%;
+        height: 75%;
     }
 
     main .conteneur .activity .two{
@@ -646,6 +680,7 @@ footer .shortcut a.text{
 
     main .conteneur .activity .two .small{
         width: 100%;
+        margin-bottom: 24px;
     }
 
 
