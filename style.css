@@ -236,6 +236,10 @@ main .second{
 
 }
 
+main .second > h2 {
+    display: none;
+}
+
 main .second article{
     background: #F2F2F2;
     width: 73%;
@@ -464,8 +468,8 @@ main .conteneur .activity .title{
 }
 
 footer .shortcut{
-    margin-right: 311px;
-    margin-left: 12px;
+    margin-right: 221px;
+    margin-left: 59px;
     margin-top: 52px;
 }
 
@@ -476,6 +480,7 @@ footer .shortcut .title{
 
 footer .shortcut ul{
     list-style-type: none;
+    padding-inline-start: 0px;
 }
 footer .shortcut li{
     padding-bottom: 4%;
