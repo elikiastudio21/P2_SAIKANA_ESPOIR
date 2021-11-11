@@ -491,20 +491,6 @@ footer .shortcut a.text{
 
 
 
-@media screen and  (max-width: 1502px) {
-
-    header nav .interior {
-        width: 23%;
-    }
-
-    main .second aside .pixel{
-        width: 90%;
-        margin-top: 4% ;
-    }
-
-}
-
-
 @media screen and (max-width: 1327px){
 
     header nav .interior {
@@ -513,6 +499,10 @@ footer .shortcut a.text{
 
     main .second{
         flex-wrap: wrap;
+    }
+
+    main .second .pixel .star{
+        font-size: 12px;
     }
 
     main .second article{
@@ -524,8 +514,27 @@ footer .shortcut a.text{
         margin-top: 3%;
     }
 
+    main .second aside .sub .fas {
+        font-size: 19px;
+        margin-left: 4%;
+    }
+
     main .second aside .blocktwo{
         margin-bottom: 4%;
+    }
+
+    main .second aside .remark{
+        width: 19%;
+    }
+
+    main .second aside .pixel img{
+        height: 92px;
+    }
+
+    main .second aside .remark .text {
+        font-size: 12px;
+        margin-top: 0;
+        margin-bottom: 24px;
     }
 
     main .second .block .pixel{
@@ -552,12 +561,34 @@ footer .shortcut a.text{
         height: auto;
     }
 
+    footer .shortcut {
+        margin-right: 102px;
+
+    }
+
     footer{
         flex-wrap: wrap;
     }
 
 
 }
+
+@media screen and (max-width: 768px){
+
+    main .second aside .pixel img {
+        height: 90px;
+    }
+
+    main .second aside .remark {
+        width: 22%;
+    }
+
+    footer .shortcut {
+        margin-right: 17px;
+    }
+    
+}
+
 
 /* MOBILE */
 @media screen and (max-width: 524px){
@@ -678,6 +709,10 @@ footer .shortcut a.text{
         background: white;
         margin-left: 2%;
         margin-right: 4%;
+    }
+
+    main .second aside .remark {
+        width: 38%;
     }
 
     main .second .block .pixel img{
