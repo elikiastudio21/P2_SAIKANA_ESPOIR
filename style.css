@@ -744,6 +744,10 @@ footer .shortcut a.text{
         width: 38%;
     }
 
+    main .second aside .pixel {
+        margin-top: 6%;
+    }
+
     main .second .block .pixel img{
     height: 99px;
     
