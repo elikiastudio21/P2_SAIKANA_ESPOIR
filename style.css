@@ -408,6 +408,20 @@ main .conteneur .activity{
     
 }
 
+main .conteneur .activity img:hover{
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5);
+    }
+
+main .conteneur .activity .one{
+        overflow: hidden;
+    }
+
+main .conteneur .activity .two{
+        overflow: hidden;
+    }
+
 main .conteneur .activity .one{
 
     background: white;
@@ -425,6 +439,11 @@ main .conteneur .activity .one img{
     margin: 0;
     max-width: 100%;
     object-fit: cover;
+    -webkit-transition: all 0.4s ease; /* Safari et Chrome */
+    -moz-transition: all 0.4s ease; /* Firefox */
+    -ms-transition: all 0.4s ease; /* Internet Explorer 9 */
+    -o-transition: all 0.4s ease; /* Opera */
+    transition: all 0.4s ease;
 }
 
 main .conteneur .activity .two{
@@ -433,6 +452,9 @@ main .conteneur .activity .two{
     text-decoration: none;
     color: black;
 
+}
+main .conteneur .activity .two .small:nth-child(2){
+    margin-bottom: 0;
 }
 
 main .conteneur .activity .two .small{
@@ -452,6 +474,11 @@ main .conteneur .activity .two .small img{
     margin: 0;
     max-width: 100%;
     object-fit: cover;
+    -webkit-transition: all 0.4s ease; /* Safari et Chrome */
+    -moz-transition: all 0.4s ease; /* Firefox */
+    -ms-transition: all 0.4s ease; /* Internet Explorer 9 */
+    -o-transition: all 0.4s ease; /* Opera */
+    transition: all 0.4s ease;
 }
 
 main .conteneur .activity .title{
