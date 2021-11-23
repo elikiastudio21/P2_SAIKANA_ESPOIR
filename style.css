@@ -414,13 +414,20 @@ main .conteneur .activity img:hover{
     transform: scale(1.5);
     }
 
-main .conteneur .activity .one{
+
+
+main .conteneur .activity .two .image{
         overflow: hidden;
+        max-width: 100%;
+        height: 75%;
     }
 
-main .conteneur .activity .two{
-        overflow: hidden;
-    }
+main .conteneur .activity .one .image{
+    max-width: 100%;
+    overflow: hidden;
+    height: 90%;
+   
+}
 
 main .conteneur .activity .one{
 
@@ -435,7 +442,7 @@ main .conteneur .activity .one{
 
 main .conteneur .activity .one img{
     border-radius: 19px 19px 0px 0px;
-    height: 90%; 
+    height: 100%; 
     margin: 0;
     max-width: 100%;
     object-fit: cover;
@@ -470,7 +477,7 @@ main .conteneur .activity .two .small{
 main .conteneur .activity .two .small img{
     border-radius: 19px 19px 0px 0px;
     width: 100%;
-    height: 75%;
+    height: 100%;
     margin: 0;
     max-width: 100%;
     object-fit: cover;
@@ -482,7 +489,7 @@ main .conteneur .activity .two .small img{
 }
 
 main .conteneur .activity .title{
-    margin-top: 10px;
+    margin-top: 17px;
     margin-left: 15px;
     margin-left: 4%;
     font-size: 14px;
@@ -543,10 +550,11 @@ footer .shortcut a.text{
 
     main .second article{
         width: 100%;
+        margin-right: O;
     }
 
     main .second aside{
-        width: 98%;
+        width: 100%;
         margin-top: 3%;
     }
 
@@ -591,6 +599,7 @@ footer .shortcut a.text{
 
     main .conteneur .activity .two {
         width: 45%;
+        margin-bottom: 3%;
     }
 
     main .conteneur .activity .one img{
@@ -616,11 +625,11 @@ footer .shortcut a.text{
     }
 
     main .second aside .pixel img {
-        height: 73px;
+        height: 86px;
     }
 
     main .second aside .remark {
-        width: 30%;
+        width: 24%;
     }
     main .second aside .remark .text{
         margin-bottom: 10px;
@@ -636,7 +645,7 @@ footer .shortcut a.text{
     }
 
     main .conteneur .activity .one img{
-        height: 92%;
+        height: 100%;
     }
 
     footer .shortcut {
