@@ -278,11 +278,30 @@ main .second .block .pixel{
 }
 
 
+main .second .block .pixel img:hover{
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5);
+    }
+
+
 main .second .block .pixel img{
     border-radius: 19px 19px 0px 0px;
     width: 100%;
     height: 160px;
     object-fit: cover;
+    -webkit-transition: all 0.4s ease; /* Safari et Chrome */
+    -moz-transition: all 0.4s ease; /* Firefox */
+    -ms-transition: all 0.4s ease; /* Internet Explorer 9 */
+    -o-transition: all 0.4s ease; /* Opera */
+    transition: all 0.4s ease;
+}
+
+main .second .block .pixel .image{
+    border-radius: 19px 19px 0px 0px;
+    overflow: hidden;
+    max-width: 100%;
+    height: 75%;
 }
 
 main .second .remark{
@@ -415,14 +434,8 @@ main .conteneur .activity img:hover{
     }
 
 
-
-main .conteneur .activity .two .image{
-        overflow: hidden;
-        max-width: 100%;
-        height: 75%;
-    }
-
 main .conteneur .activity .one .image{
+    border-radius: 19px 19px 0px 0px;
     max-width: 100%;
     overflow: hidden;
     height: 90%;
@@ -453,6 +466,20 @@ main .conteneur .activity .one img{
     transition: all 0.4s ease;
 }
 
+main .conteneur .activity .two .image{
+    border-radius: 19px 19px 0px 0px;
+        overflow: hidden;
+        max-width: 100%;
+        height: 75%;
+    }
+
+    main .conteneur .activity .twosmal .image{
+        border-radius: 19px 19px 0px 0px;
+            overflow: hidden;
+            max-width: 100%;
+            height: 75%;
+        }
+
 main .conteneur .activity .two{
     width: 22%;
     margin-top: 7px;
@@ -460,8 +487,33 @@ main .conteneur .activity .two{
     color: black;
 
 }
+
+main .conteneur .activity .twosmal{
+    width: 22%;
+    margin-top: 7px;
+    text-decoration: none;
+    color: black;
+
+}
+
 main .conteneur .activity .two .small:nth-child(2){
     margin-bottom: 0;
+    height: 212px;
+}
+
+main .conteneur .activity .two .small:nth-child(1){
+    
+    height: 193px;
+}
+
+main .conteneur .activity .twosmal .small:nth-child(2){
+    margin-bottom: 0;
+    height: 183px;
+}
+
+main .conteneur .activity .twosmal .small:nth-child(1){
+    
+    height: 223px;
 }
 
 main .conteneur .activity .two .small{
@@ -469,9 +521,31 @@ main .conteneur .activity .two .small{
     border-radius: 19px 19px 0px 0px;
     border-radius: 19px 19px 19px 19px;
     box-shadow: 6px 6px 6px #8080802e;
-    height: 204px;
     margin-bottom: 52px;
 
+}
+
+main .conteneur .activity .twosmal .small{
+    background: white;
+    border-radius: 19px 19px 0px 0px;
+    border-radius: 19px 19px 19px 19px;
+    box-shadow: 6px 6px 6px #8080802e;
+    margin-bottom: 52px;
+
+}
+
+main .conteneur .activity .twosmal .small img{
+    border-radius: 19px 19px 0px 0px;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    max-width: 100%;
+    object-fit: cover;
+    -webkit-transition: all 0.4s ease; /* Safari et Chrome */
+    -moz-transition: all 0.4s ease; /* Firefox */
+    -ms-transition: all 0.4s ease; /* Internet Explorer 9 */
+    -o-transition: all 0.4s ease; /* Opera */
+    transition: all 0.4s ease;
 }
 
 main .conteneur .activity .two .small img{
